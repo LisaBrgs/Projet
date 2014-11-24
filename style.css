@@ -3,6 +3,7 @@ body,a {
     background-image: url(fond.jpg)
     color:black;
     font-size:35px;
+}
     
 a {
     color: grey;
@@ -10,7 +11,6 @@ a {
     text-decoration:none;
 }
 
-}
 
 #navigation a {
     padding: 4px 10px; 
@@ -27,10 +27,40 @@ a {
 #navigation #en-cours a {
     background-color: #91BD09;
     color: #fff;
-
-main p { 
-    color: pink;
-    font-size:25px;
 }
 
+main{
+    background-color: white;
+    text-align: center;
+    max-width: 1000px;
+    margin:auto;
+    margin-bottom: 50px;
+}
+
+main p { 
+    font-size:25px;
+    color:pink;
+}
+
+h2{
+text-align:center;
+color:black;
+font-size:60px;
+font-family:georgia"
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto
+}
+
+header{
+    background-color:pink;
+    text-align: center;
+    max-width: 1000px;
+    margin:auto;
+    margin-bottom: 10px;
+}
     
