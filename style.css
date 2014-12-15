@@ -1,9 +1,41 @@
+header{
+    background-color:pink;
+    text-align: center;
+    max-width: 1000px;
+    margin:auto;
+    margin-bottom: 10px ;
+    height: 50px;
+}
+
 body { 
     font-family: 'Lobster', cursive;
-    background-image: url(fond1.jpeg);
+    background-image: url(stardust.png);
     color:black;
     font-size:35px;
-    background-size: cover;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+    max-width: 1000px;
+    margin:auto;
+    margin-bottom: 50px;
+}
+
+main p { 
+    font-size:25px;
+    color:pink;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+    position: fixed;
+    bottom: 0px;
+    left:25px;
+    right:25px;
 }
     
 a {
@@ -12,6 +44,14 @@ a {
     text-decoration:none;
     font-family: 'Lobster', cursive;
     
+}
+
+.competences {
+    text-align: left;
+}
+
+.images {
+     width:100px;
 }
 
 
@@ -32,38 +72,45 @@ a {
     color: #fff;
 }
 
-main{
-    background-color: white;
-    text-align: center;
-    max-width: 1000px;
-    margin:auto;
-    margin-bottom: 50px;
-}
 
-main p { 
-    font-size:25px;
-    color:pink;
-}
 
-h2{
+h2 {
 text-align:center;
 color:black;
-font-size:60px;
-font-family:georgia"
+font-size:45px;
+font-family: 'lobster' , cursive;
 }
 
-footer{
-    background-color: white;
-    text-align: center;
-    max-width: 1000px;
-    margin: auto
+h1 {
+text-align:center;
+color:black;
+font-size:45px;
+font-family:'lobster' , cursive;
 }
 
-header{
-    background-color:pink;
-    text-align: center;
-    max-width: 1000px;
-    margin:auto;
-    margin-bottom: 10px;
+
+.Logiciels {
+    text-align: left;
+    margin-left: 50px;
+    float: left;
 }
+
+.langues {
+    text-align: center;
+    padding-right:195px;
+    padding-top: 1px;
+}
+
+.reseaux {
+     text-align: right;
+    margin-right: 50px;
+    float: right;
     
+    
+}
+
+.mail {
+    text-decoration: none;
+    color: black;
+}
+
